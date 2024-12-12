@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>EssenByNaty</title>
+    
+    <link rel="stylesheet" href="./FondEnd/CSS/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">EssenByNaty</h1>
+            </header>
+
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i>Todos los productos</button>
+                    </li>
+
+                    <li>
+                        <button id="sartenes" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Sartenes</button>
+                    </li>
+
+                    <li>
+                        <button id="cacerolas" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Cacerolas</button>
+                    </li>
+
+                    <li>
+                        <button id="bazar" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Bazar Premium</button>
+                    </li>
+
+                    <li>
+                        <a class="boton-menu boton-carrito" href="carrito.html">
+                            <i class="bi bi-cart-fill"></i>Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </nav>
+
+            <footer> 
+                <p>© EssenByNaty 2024</p>   
+            </footer>
+        
+        </aside>
+
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            
+            <!-- Grilla de productos -->
+            <div id="contenedor-productos" class="contenedor-productos">
+             <!-- esto se va a rellenar con JS-->
+            </div>
+
+           
+        </main>
+    </div>
+
+    <script src="./FondEnd/JavaScript/main.js"></script>
+
+</body>
+</html>
