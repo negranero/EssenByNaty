@@ -354,6 +354,7 @@ function actualizarBotonesAgregar(){
 }
 
 
+
 let productosEncarrito;
 
 let productosEncarritoLS = localStorage.getItem("productos-en-carrito");
