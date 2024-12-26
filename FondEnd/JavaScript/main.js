@@ -1,280 +1,23 @@
-//PRODUCTOS
+let productos = [];
 
-const productos = [
-    //Cacerolas
-    {
-        id:"cacerola1",
-        titulo:"Cacerola 1",
-        imagen:"FondEnd/img/Cacerola/cacerola1.jpg",
-        categoria: {
-            nombre:"Cacerolas",
-            id:"cacerolas"
-        },
-        precio:180000
-    },
-
-    {
-        id:"cacerola2",
-        titulo:"Cacerola 2",
-        imagen:"FondEnd/img/Cacerola/cacerola2.jpg",
-        categoria: {
-            nombre:"Cacerolas",
-            id:"cacerolas"
-        },
-        precio:180000
-    },
-
-    {
-        id:"cacerola3",
-        titulo:"Cacerola 3",
-        imagen:"FondEnd/img/Cacerola/cacerola3.jpg",
-        categoria: {
-            nombre:"Cacerolas",
-            id:"cacerolas"
-        },
-        precio:180000
-    },
-
-
-    {
-        id:"cacerola4",
-        titulo:"Cacerola 4",
-        imagen:"FondEnd/img/Cacerola/cacerola4.jpg",
-        categoria: {
-            nombre:"Cacerolas",
-            id:"cacerolas"
-        },
-        precio:180000
-    },
-
-
-    {
-        id:"cacerola5",
-        titulo:"Cacerola 5",
-        imagen:"FondEnd/img/Cacerola/cacerola5.jpg",
-        categoria: {
-            nombre:"Cacerolas",
-            id:"cacerolas"
-        },
-        precio:180000
-    },
-
-
-    {
-        id:"cacerola6",
-        titulo:"Cacerola 6",
-        imagen:"FondEnd/img/Cacerola/cacerola6.jpg",
-        categoria: {
-            nombre:"Cacerolas",
-            id:"cacerolas"
-        },
-        precio:180000
-    },
-
-
-    {
-        id:"cacerola7",
-        titulo:"Cacerola 7",
-        imagen:"FondEnd/img/Cacerola/cacerola7.jpg",
-        categoria: {
-            nombre:"Cacerolas",
-            id:"cacerolas"
-        },
-        precio:180000
-    },
-
-
-    {
-        id:"cacerola8",
-        titulo:"Cacerola 8",
-        imagen:"FondEnd/img/Cacerola/cacerola8.jpg",
-        categoria: {
-            nombre:"Cacerolas",
-            id:"cacerolas"
-        },
-        precio:180000
-    },
-
-
-   //Sartenes
-    {
-        id:"sarten1",
-        titulo:"Sarten 1",
-        imagen:"FondEnd/img/Sarten/sarten1.jpg",
-        categoria: {
-            nombre:"Sartenes",
-            id:"sartenes"
-        },
-        precio:180000
-    },
-
-    {
-        id:"sarten2",
-        titulo:"Sarten 2",
-        imagen:"FondEnd/img/Sarten/sarten2.jpg",
-        categoria: {
-            nombre:"Sartenes",
-            id:"sartenes"
-        },
-        precio:180000
-    },
-
-
-    {
-        id:"sarten3",
-        titulo:"Sarten 3",
-        imagen:"FondEnd/img/Sarten/sarten3.jpg",
-        categoria: {
-            nombre:"Sartenes",
-            id:"sartenes"
-        },
-        precio:180000
-    },
-
-
-    {
-        id:"sarten4",
-        titulo:"Sarten 4",
-        imagen:"FondEnd/img/Sarten/sarten4.jpg",
-        categoria: {
-            nombre:"Sartenes",
-            id:"sartenes"
-        },
-        precio:180000
-    },
-
-
-    {
-        id:"sarten5",
-        titulo:"Sarten 5",
-        imagen:"FondEnd/img/Sarten/sarten5.jpg",
-        categoria: {
-            nombre:"Sartenes",
-            id:"sartenes"
-        },
-        precio:180000
-    },
-
-    {
-        id:"sarten6",
-        titulo:"Sarten 6",
-        imagen:"FondEnd/img/Sarten/sarten6.jpg",
-        categoria: {
-            nombre:"Sartenes",
-            id:"sartenes"
-        },
-        precio:180000
-    },
-
-
-    {
-        id:"sarten7",
-        titulo:"Sarten 7",
-        imagen:"FondEnd/img/Sarten/sarten7.jpg",
-        categoria: {
-            nombre:"Sartenes",
-            id:"sartenes"
-        },
-        precio:180000
-    },
-
-
-
-   //Bazar Premium
-    {
-        id:"bazar1",
-        titulo:"Bazar 1",
-        imagen:"FondEnd/img/Bazar/bazar1.jpg",
-        categoria: {
-            nombre:"Bazar Premium",
-            id:"bazar"
-        },
-    precio:180000
-    },
-
-
-    {
-        id:"bazar2",
-        titulo:"Bazar 2",
-        imagen:"FondEnd/img/Bazar/bazar2.jpg",
-        categoria: {
-            nombre:"Bazar Premium",
-            id:"bazar"
-        },
-        precio:180000
-    },
-    
-
-    {
-        id:"bazar3",
-        titulo:"Bazar 3",
-        imagen:"FondEnd/img/Bazar/bazar3.jpg",
-        categoria: {
-            nombre:"Bazar Premium",
-            id:"bazar"
-        },
-        precio:180000
-    },
-
-
-    {
-        id:"bazar4",
-        titulo:"Bazar 4",
-        imagen:"FondEnd/img/Bazar/bazar4.jpg",
-        categoria: {
-            nombre:"Bazar Premium",
-            id:"bazar"
-        },
-    precio:180000
-    },
-
-
-    {
-        id:"bazar5",
-        titulo:"Bazar 5",
-        imagen:"FondEnd/img/Bazar/bazar5.jpg",
-        categoria: {
-            nombre:"Bazar Premium",
-            id:"bazar"
-        },
-    precio:180000
-    },
-
-    {
-        id:"bazar6",
-        titulo:"Bazar 6",
-        imagen:"FondEnd/img/Bazar/bazar6.jpg",
-        categoria: {
-            nombre:"Bazar Premium",
-            id:"bazar"
-        },
-    precio:180000
-    },
-
-
-    {
-        id:"bazar7",
-        titulo:"Bazar 7",
-        imagen:"FondEnd/img/Bazar/bazar7.jpg",
-        categoria: {
-            nombre:"Bazar Premium",
-            id:"bazar"
-        },
-    precio:180000
-    },
-
-
-    {
-        id:"bazar8",
-        titulo:"Bazar 8",
-        imagen:"FondEnd/img/Bazar/bazar8.jpg",
-        categoria: {
-            nombre:"Bazar Premium",
-            id:"bazar"
-        },
-    precio:180000
-    },
-]
+fetch("FondEnd/JavaScript/productos.json")
+    .then(response => {
+        if (!response.ok) {
+            throw new Error("Error al obtener los datos del JSON");
+        }
+        return response.json();
+    })
+    .then(data => {
+        if (Array.isArray(data)) {
+            productos = data;
+            cargarProductos(productos);
+        } else {
+            console.error("El formato de los datos no es un array");
+        }
+    })
+    .catch(error => {
+        console.error("Error en la carga de productos:", error.message);
+    });
 
 
 // Selecciona el contenedor de productos en el DOM
@@ -366,6 +109,28 @@ productosEncarrito = JSON.parse(productosEncarritoLS) || [];
  // Define una función llamada 'agregarAlCarrito' que maneja la acción de agregar un producto al carrito.
  // Recibe un evento 'e' como parámetro, que permite acceder al elemento que disparó el evento.
 function agregarAlCarrito(e){
+    Toastify({
+        text: "Producto agregado al carrito",
+        duration: 3000,
+        newWindow: true,
+        close: true,
+        gravity: "top", // `top` or `bottom`
+        position: "right", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+          background: "linear-gradient(to right, #ec940e, rgb(193, 152, 105))",
+          borderRadius: "2rem",
+          textTransform: "uppercase",
+          fontSize: ".75rem",
+        },
+        offset: {
+            x:'1.5rem',// horizontal axis - can be a number or a string indicating unity. eg: '2em'
+            y:'1.5rem' // vertical axis - can be a number or a string indicating unity. eg: '2em'
+          },
+
+        onClick: function(){} // Callback after click
+      }).showToast();
+
 
  // Obtiene el 'id' del botón que activó el evento (currentTarget) y lo asigna a la variable 'IdBoton'.
 // Esto permite identificar el producto que se está agregando al carrito.    
